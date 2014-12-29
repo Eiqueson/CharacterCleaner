@@ -1,0 +1,11 @@
+package charclean;
+
+public interface CharacterEntity {
+	void render();
+	void update();
+	boolean isDeletable();
+	char getName();
+	boolean isInWindow();
+	float YPosition();
+	float XPosition();
+}
